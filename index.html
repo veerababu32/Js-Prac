@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="resource"></div>
+
+    <!-- 8 que -->
+    <div>Guess Number: <input type="input" id="firstInput" /></div>
+    <button onclick="check()">Check</button>
+
+    <!-- 10 que -->
+    <div>1st input: <input type="number" id="firstInput" /></div>
+    <div>2nd input: <input type="number" id="secondInput" /></div>
+    <button onclick="multiply()">Multiply</button>
+    <button onclick="divide()">Divide</button>
+    <p>Answer is:<span id="value"></span></p>
+
+    <!-- 13 que -->
+    <label for="fileUploader">Choose a File to Upload:</label>
+    <input type="file" name="fileUploader" id="fileUploader" multiple>
+    <button type="button" id="check">Check</button>
+
+
+    <!-- Regualar Expressions example -->
+    <p>
+        Enter your phone number (with area code) and then click the 'check'
+        <br>
+        The excepted format is ###-###-####.
+    </p>
+    <form id="form">
+        <input id="phone">
+        <button type="submit">Check</button>
+    </form>
+    <p id="result"></p>
+
+    <script src="index.js"></script>
+</body>
+</html>
